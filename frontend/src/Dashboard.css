@@ -1,0 +1,119 @@
+
+.dashboard-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 18px;
+  background:
+    radial-gradient(ellipse at 15% 15%, #e1e7ff 0, transparent 40%),
+    radial-gradient(ellipse at 85% 85%, #e9e1ff 0, transparent 38%),
+    #f7f8fc;
+}
+
+.dashboard-card {
+  width: 100%;
+  max-width: 480px;
+  padding: 42px 36px 34px;
+  border: 1px solid #eceef5;
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow: 0 22px 70px rgba(42, 48, 88, 0.09);
+  text-align: center;
+}
+
+.dashboard-icon {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 22px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #6558ed, #9284ff);
+  color: #ffffff;
+  font-size: 27px;
+  box-shadow: 0 8px 20px rgba(101, 88, 237, 0.24);
+}
+
+.dashboard-eyebrow {
+  margin: 0 0 10px;
+  color: #7773b8;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.dashboard-card h1 {
+  margin: 0;
+  color: #20243a;
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.8px;
+}
+
+.dashboard-subtitle {
+  margin: 12px 0 28px;
+  color: #85899d;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.account-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  padding: 18px;
+  border: 1px solid #e8e8f8;
+  border-radius: 12px;
+  background: #fafaff;
+  text-align: left;
+}
+
+.account-details span {
+  color: #85899d;
+  font-size: 12px;
+}
+
+.account-details strong {
+  max-width: 100%;
+  color: #34384f;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.success-message {
+  margin: 18px 0 24px;
+  padding: 13px;
+  border: 1px solid #d9f1e4;
+  border-radius: 10px;
+  background: #f0fbf5;
+  color: #247b4b;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.dashboard-button {
+  width: 100%;
+  padding: 14px 16px;
+  border: 0;
+  border-radius: 10px;
+  background: linear-gradient(100deg, #6558ed, #8171f7);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  box-shadow: 0 7px 16px rgba(101, 88, 237, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dashboard-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(101, 88, 237, 0.28);
+}
+
+@media (max-width: 420px) {
+  .dashboard-card {
+    padding: 32px 22px 26px;
+  }
+}
